@@ -51,7 +51,7 @@ export default function Contact() {
         formDataToSend.append(key, value);
       });
 
-      const response = await fetch('https://formsubmit.co/rahul@upscalesolution.com', {
+      const response = await fetch('https://formsubmit.co/17a58ca8b8aeb4d7e6e94ce1cf9f6b8b', {
         method: 'POST',
         body: formDataToSend,
         headers: {
